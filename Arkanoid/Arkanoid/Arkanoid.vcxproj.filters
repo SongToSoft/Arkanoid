@@ -41,13 +41,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Paddle.h">
+    <ClInclude Include="Background.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Ball.h">
@@ -56,10 +50,16 @@
     <ClInclude Include="Block.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
     <ClInclude Include="HealthBar.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Background.h">
+    <ClInclude Include="Paddle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

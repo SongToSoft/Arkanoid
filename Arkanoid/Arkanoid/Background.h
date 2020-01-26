@@ -8,5 +8,9 @@ public:
 	Background(const std::string& textureName, sf::Vector2f position);
 	~Background();
 
-	void SetRectangle();
+	void Draw(sf::RenderWindow& window) override;
+
+private:
+	sf::Texture m_spaceTexture;
+	sf::Sprite m_spaseSprite;
 };

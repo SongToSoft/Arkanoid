@@ -16,7 +16,7 @@ public:
 	sf::FloatRect GetLeftRect();
 	sf::Sprite GetSprite();
 
-	void Draw(sf::RenderWindow& window);
+	virtual void Draw(sf::RenderWindow& window);
 
 protected:
 	sf::Texture m_texture;

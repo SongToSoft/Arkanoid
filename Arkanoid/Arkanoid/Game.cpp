@@ -216,7 +216,6 @@ void Game::DrawMainGame()
 {
 	m_window.clear(sf::Color::Black);
 
-	m_background.SetRectangle();
 	m_background.Draw(m_window);
 
 	m_paddle.Draw(m_window);
