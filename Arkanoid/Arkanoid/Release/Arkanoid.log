@@ -1,0 +1,27 @@
+﻿  Ball.cpp
+  Game.cpp
+C:\Users\Dima\source\repos\Arkanoid\Arkanoid\Game.cpp(64,15): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\Dima\source\repos\Arkanoid\Arkanoid\Game.cpp(153,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Dima\source\repos\Arkanoid\Arkanoid\Game.cpp(153,58): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Dima\source\repos\Arkanoid\Arkanoid\Game.cpp(195,20): warning C4018: <: несоответствие типов со знаком и без знака
+  HealthBar.cpp
+C:\Users\Dima\source\repos\Arkanoid\Arkanoid\HealthBar.cpp(8,124): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  main.cpp
+  Создание кода
+  1 of 423 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Arkanoid.vcxproj -> C:\Users\Dima\source\repos\Arkanoid\Release\Arkanoid.exe
