@@ -20,3 +20,9 @@ void Background::Draw(sf::RenderWindow& window)
 	window.draw(m_spaseSprite);
 	GameObject::Draw(window);
 }
+
+void Background::DrawOnlySpace(sf::RenderWindow& window)
+{
+	m_spaseSprite = sf::Sprite(m_spaceTexture);
+	window.draw(m_spaseSprite);
+}

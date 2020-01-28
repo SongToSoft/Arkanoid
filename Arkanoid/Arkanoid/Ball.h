@@ -16,6 +16,8 @@ public:
 	Ball(const std::string& textureName, sf::Vector2f position);
 	~Ball();
 
+	void SetState(EBallState state);
+
 	void CheckPaddle(Paddle& paddle);
 	bool CheckBlock(Block& block);
 

@@ -11,6 +11,11 @@ Ball::~Ball()
 {
 }
 
+void Ball::SetState(EBallState state)
+{
+	m_state = state;
+}
+
 void Ball::CheckPaddle(Paddle& paddle)
 {
 	if (m_state == EBallState::STARTED)

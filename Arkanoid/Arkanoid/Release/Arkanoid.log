@@ -1,0 +1,35 @@
+﻿  Ball.cpp
+  Game.cpp
+C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Game.cpp(64,15): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Game.cpp(149,71): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Game.cpp(149,58): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\Game.cpp(192,20): warning C4018: <: несоответствие типов со знаком и без знака
+  HealthBar.cpp
+C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Arkanoid\HealthBar.cpp(8,124): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  main.cpp
+  Создание кода
+  1 of 424 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+Background.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+Ball.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+Block.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+Game.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+GameObject.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+HealthBar.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+main.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+Paddle.obj : warning LNK4020: запись типа в "c:\users\dima\documents\github\arkanoid\arkanoid\arkanoid\release\vc142.pdb" повреждена; некоторые символы и типы могут быть недоступными из отладчика
+  Arkanoid.vcxproj -> C:\Users\Dima\Documents\GitHub\Arkanoid\Arkanoid\Release\Arkanoid.exe

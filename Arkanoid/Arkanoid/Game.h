@@ -11,7 +11,7 @@
 #define WINDOW_HEIGHT 600
 
 #define BLOCK_IN_ROW 15
-#define BLOCK_IN_COLUMN 4
+#define BLOCK_IN_COLUMN 8
 
 #define DEFAULT_LIVES_NUMBER 5
 

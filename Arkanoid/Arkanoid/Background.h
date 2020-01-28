@@ -9,6 +9,7 @@ public:
 	~Background();
 
 	void Draw(sf::RenderWindow& window) override;
+	void DrawOnlySpace(sf::RenderWindow& window);
 
 private:
 	sf::Texture m_spaceTexture;

@@ -26,29 +26,29 @@ Game::~Game()
 void Game::Start()
 {
 	sf::Font font;
-	if (!font.loadFromFile("Fonts\\Arial.ttf"))
+	if (!font.loadFromFile("Fonts\\Aire Exterior.ttf"))
 	{
 		std::cout << "Font don't found" << std::endl;
 	}
 	m_highScoreText.setFont(font);
 	m_highScoreText.setString("High Score: " + std::to_string(m_highScore));
-	m_highScoreText.setCharacterSize(15);
+	m_highScoreText.setCharacterSize(20);
 	m_highScoreText.setPosition(450, 50);
 
 	m_currentScoreText.setFont(font);
 	m_currentScoreText.setString("Current Score: " + std::to_string(m_currentScore));
-	m_currentScoreText.setCharacterSize(15);
+	m_currentScoreText.setCharacterSize(20);
 	m_currentScoreText.setPosition(450, 100);
 
 
 	m_menuText.setFont(font);
-	m_menuText.setString("  Current High Score: " + std::to_string(m_highScore) + '\n' + "Press Enter for Start Game");
-	m_menuText.setCharacterSize(20);
+	m_menuText.setString("  Current High Score: " + std::to_string(m_highScore) + '\n' + '\n' + "Press Enter for Start Game");
+	m_menuText.setCharacterSize(30);
 	m_menuText.setPosition(250, 200);
 
 	m_gameoverText.setFont(font);
 	m_gameoverText.setString("GAME OVER");
-	m_gameoverText.setCharacterSize(20);
+	m_gameoverText.setCharacterSize(30);
 	m_gameoverText.setPosition(325, 250);
 
 	sf::Event event;
@@ -169,6 +169,7 @@ void Game::DrawMenu()
 {
 	m_window.clear(sf::Color::Black);
 
+	m_background.DrawOnlySpace(m_window);
 	m_window.draw(m_menuText);
 	
 	m_window.display();
@@ -204,6 +205,7 @@ void Game::UpdateMainGame(sf::Event &event, float time)
 				}
 				else
 				{
+					m_ball.SetState(EBallState::ON_START);
 					CreateLevel();
 				}
 			}
@@ -248,6 +250,7 @@ void Game::DrawGameOver()
 {
 	m_window.clear(sf::Color::Black);
 
+	m_background.DrawOnlySpace(m_window);
 	m_window.draw(m_gameoverText);
 
 	m_window.display();
